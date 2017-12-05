@@ -29,8 +29,6 @@ public class MainActivity extends AppCompatActivity {
     {
         Intent intent = new Intent(this, Func3Activity.class);
         startActivity(intent);
-        Toast.makeText(this,"特殊功能",Toast.LENGTH_LONG).show();
-        finish();
     }
     public void gotofunc4(View v)
     {
